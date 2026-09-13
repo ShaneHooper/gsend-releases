@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "latest_version": "0.5.0.0",
-  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.0/G-SEND.IO-Setup-0.5.0.0.exe",
-  "sha256": "1cdbb7747d00b26a1db4ddee7c869bcf0fdcbf6872d42625923101ca75ff521d",
+  "latest_version": "0.5.0.1",
+  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.1/G-SEND.IO-Setup-0.5.0.1.exe",
+  "sha256": "7bc4ca9eda2c8f621ffbe0c4f0d4082dfa4c1d2191bd0f9a6d59fce631f20a2d",
   "min_supported_version": "0.5.0.0",
-  "release_notes": "G-SEND.IO 0.5.0.0 (REV 5 beta). First release with automatic update checks - the app now finds new versions itself and installs them when you close it.",
+  "release_notes": "G-SEND.IO 0.5.0.1: the editor keeps painting while you move or resize the window - dragging no longer freezes the display.",
   "mandatory": false
 }
