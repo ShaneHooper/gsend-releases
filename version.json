@@ -1,9 +1,0 @@
-{
-  "schema": 1,
-  "latest_version": "0.5.0.2",
-  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.2/G-SEND.IO-Setup-0.5.0.2.exe",
-  "sha256": "62fbd3789d007465646d28f07dabcc0e68b44d1081a94217e1645ea2328d793e",
-  "min_supported_version": "0.5.0.0",
-  "release_notes": "G-SEND.IO 0.5.0.2: Help > About now shows a 'Last updated' date so you can always tell which copy you are running, plus toolpath tool-diameter fixes.",
-  "mandatory": false
-}
