@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "latest_version": "0.5.0.4",
-  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.4/G-SEND.IO-Setup-0.5.0.4.exe",
-  "sha256": "16a189b0c2896ce2375b1fe1ca26e04405d4e8b32dfc075c46732630c3f87d2e",
+  "latest_version": "0.5.0.5",
+  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.5/G-SEND.IO-Setup-0.5.0.5.exe",
+  "sha256": "6cd4e3d535dd18291bcc3ddaa1ae62cb0ec4f33a17c3608ccec4fb6ef8674dc6",
   "min_supported_version": "0.5.0.0",
-  "release_notes": "G-SEND.IO 0.5.0.4: no more phantom freezes. Dialogs (including the update prompt and About box) now always open on screen, size to fit their text, and can never stack invisibly. A watchdog also records any real hang. Plus the recent simulator and reminder fixes.",
+  "release_notes": "G-SEND.IO 0.5.0.5: adds Help > Check for Updates, so you can check for a new version any time instead of waiting on the daily automatic check.",
   "mandatory": false
 }
