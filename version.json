@@ -1,1 +1,9 @@
-{"latest_version":"0.5.0.7","mandatory":false,"release_notes":"G-SEND.IO 0.5.0.7: the installed copy (C:\\G-SEND) now owns the Fusion Launch button and the G-code file associations, so an update can no longer be shadowed by a stale test copy.","schema":1,"sha256":"fb2cdbb30a5ec602465cc5f8c0264540e71644eda82a87dc3a7f3fc0f9a70a02","download_url":"https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.7/G-SEND.IO-Setup-0.5.0.7.exe","min_supported_version":"0.5.0.0"}
+{
+  "schema": 1,
+  "latest_version": "0.5.0.8",
+  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.8/G-SEND.IO-Setup-0.5.0.8.exe",
+  "sha256": "fea1411b00ca1bd5034c3cb639c748e85d5058bbe12721763279f81003c3da27",
+  "min_supported_version": "0.5.0.0",
+  "release_notes": "0.5.0.8: schedule dialogs open centred and stay above the JOB window; menus close when a dialog opens and no longer vanish on a foreground blip; Edit job... on the tile menu; Pieces on jobs (#236)",
+  "mandatory": false
+}
