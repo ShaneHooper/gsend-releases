@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "latest_version": "0.5.0.5",
-  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.5/G-SEND.IO-Setup-0.5.0.5.exe",
-  "sha256": "6cd4e3d535dd18291bcc3ddaa1ae62cb0ec4f33a17c3608ccec4fb6ef8674dc6",
+  "latest_version": "0.5.0.6",
+  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.6/G-SEND.IO-Setup-0.5.0.6.exe",
+  "sha256": "10e08bd9b7614c20de72e48746c7feef1a6ee0a6ab92fd81425d30b4b78242d5",
   "min_supported_version": "0.5.0.0",
-  "release_notes": "G-SEND.IO 0.5.0.5: adds Help > Check for Updates, so you can check for a new version any time instead of waiting on the daily automatic check.",
+  "release_notes": "G-SEND.IO 0.5.0.6: the mill simulator's BLOCK panel now names the real line (an N-word when the program has one, otherwise a plain line number), and the G-code box highlights and follows the line being cut.",
   "mandatory": false
 }
