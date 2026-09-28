@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "latest_version": "0.5.0.8",
-  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.8/G-SEND.IO-Setup-0.5.0.8.exe",
-  "sha256": "fea1411b00ca1bd5034c3cb639c748e85d5058bbe12721763279f81003c3da27",
+  "latest_version": "0.5.0.10",
+  "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0.5.0.10/G-SEND.IO-Setup-0.5.0.10.exe",
+  "sha256": "49acdaba9308c2dc1b694f6aff94f5ab463a9d00a5c83cfad965b54d3ba25ec7",
   "min_supported_version": "0.5.0.0",
-  "release_notes": "0.5.0.8: schedule dialogs open centred and stay above the JOB window; menus close when a dialog opens and no longer vanish on a foreground blip; Edit job... on the tile menu; Pieces on jobs (#236)",
+  "release_notes": "0.5.0.10: Speeds & Feeds can delete a whole material and restore the shipped ones; Settings > Restore GSend Config loads one or more backups with a duplicate warning; NEXT# gets a Start with option; scrollbars show a grip; an automatic update now says Updating, not Installing.",
   "mandatory": false
 }
