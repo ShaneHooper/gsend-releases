@@ -9,7 +9,7 @@
       "sha256": "3b1133e65fd10d6af3bbf2e1f9eec8180da1255f7a5cb40bbdc85bcae710bd65",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "G-SEND.IO: Simulate beside the code now plays lathe programs too, on real CNMG432 / VNMG332 turning holders (Tools > Lathe Simulator opens it); mill tools sit in the CAT40 ER32 holder. CAD CAM: File > Simulate G-code... plays any lathe or mill program with its code beside it (also SIMULATE... in the Post window), and Simulate draws the real turning and CAT40 holders."
+      "release_notes": "Simulate beside the code now plays lathe programs too, on real CNMG432 / VNMG332 turning holders (Tools > Lathe Simulator opens it); mill tools sit in the CAT40 ER32 holder."
     },
     "cadcam": {
       "product": "cadcam",
@@ -19,7 +19,7 @@
       "sha256": "008420485c00df4811bec30242cd559a0c77481f8cc25a606066d752019ebdbf",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "G-SEND.IO: Simulate beside the code now plays lathe programs too, on real CNMG432 / VNMG332 turning holders (Tools > Lathe Simulator opens it); mill tools sit in the CAT40 ER32 holder. CAD CAM: File > Simulate G-code... plays any lathe or mill program with its code beside it (also SIMULATE... in the Post window), and Simulate draws the real turning and CAT40 holders."
+      "release_notes": "File > Simulate G-code... plays any lathe or mill program with its code beside it (also SIMULATE... in the Post window), and Simulate draws the real turning and CAT40 holders."
     }
   }
 }
