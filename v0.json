@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.397",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.397/G-SEND-V0-IDE-Update-6.0.397.exe",
-      "sha256": "3b1133e65fd10d6af3bbf2e1f9eec8180da1255f7a5cb40bbdc85bcae710bd65",
+      "latest_version": "6.0.431",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.431/G-SEND-V0-IDE-Update-6.0.431.exe",
+      "sha256": "5ee6c35e1adc041e44c0c1732c0508c9c52646bf090177b4f9f2ca504ff5bff0",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate beside the code now plays lathe programs too, on real CNMG432 / VNMG332 turning holders (Tools > Lathe Simulator opens it); mill tools sit in the CAT40 ER32 holder."
+      "release_notes": "Simulate 3D: the view looks straight on, like a drawing; Shift + wheel or a pressed-down wheel turns the view, the wheel alone pans. Simulate no longer vanishes when it opens. Your 60-degree threading holder now shows as the thread tool. Save As: a program never saved opens in your Open Starts In folder (still .nc). Find and Replace labels its boxes. The app now reports which version is installed after each update (an anonymous machine id only)."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.934",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.934/G-SEND-V0-CADCAM-Update-0.1.934.exe",
-      "sha256": "008420485c00df4811bec30242cd559a0c77481f8cc25a606066d752019ebdbf",
+      "latest_version": "0.1.941",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.941/G-SEND-V0-CADCAM-Update-0.1.941.exe",
+      "sha256": "11aefa07e6f61a520cf8079b4b56bf19aa7ebb1e05bdb90491f8250d52cc8ba6",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "File > Simulate G-code... plays any lathe or mill program with its code beside it (also SIMULATE... in the Post window), and Simulate draws the real turning and CAT40 holders."
+      "release_notes": "Simulate: your 60-degree threading holder now shows as the thread tool."
     }
   }
 }
