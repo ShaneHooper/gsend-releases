@@ -4,22 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.431",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.431/G-SEND-V0-IDE-Update-6.0.431.exe",
-      "sha256": "5ee6c35e1adc041e44c0c1732c0508c9c52646bf090177b4f9f2ca504ff5bff0",
+      "latest_version": "6.0.470",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.470/G-SEND-V0-IDE-Update-6.0.470.exe",
+      "sha256": "0d6992134fb60bfe89ad82cf17e1a7898da1df167af624abe3c7890f4e7a08fa",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate 3D: the view looks straight on, like a drawing; Shift + wheel or a pressed-down wheel turns the view, the wheel alone pans. Simulate no longer vanishes when it opens. Your 60-degree threading holder now shows as the thread tool. Save As: a program never saved opens in your Open Starts In folder (still .nc). Find and Replace labels its boxes. The app now reports which version is installed after each update (an anonymous machine id only)."
-    },
-    "cadcam": {
-      "product": "cadcam",
-      "schema": 1,
-      "latest_version": "0.1.941",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.941/G-SEND-V0-CADCAM-Update-0.1.941.exe",
-      "sha256": "11aefa07e6f61a520cf8079b4b56bf19aa7ebb1e05bdb90491f8250d52cc8ba6",
-      "min_supported_version": "0.1.0",
-      "mandatory": false,
-      "release_notes": "Simulate: your 60-degree threading holder now shows as the thread tool."
+      "release_notes": "Clicking OK on the first-launch notice now sends its confirmation to G-SEND, and each update sends a short note of the new version (an anonymous machine id only, no names or files)."
     }
   }
 }
