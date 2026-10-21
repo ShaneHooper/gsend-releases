@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.470",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.470/G-SEND-V0-IDE-Update-6.0.470.exe",
-      "sha256": "0d6992134fb60bfe89ad82cf17e1a7898da1df167af624abe3c7890f4e7a08fa",
+      "latest_version": "6.0.516",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.516/G-SEND-V0-IDE-Update-6.0.516.exe",
+      "sha256": "1b9a8b0efbc5e0fdbb9a4b4860cf8695ec7816f82b12bd3e3036f2be849ac1ea",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Clicking OK on the first-launch notice now sends its confirmation to G-SEND, and each update sends a short note of the new version (an anonymous machine id only, no names or files)."
+      "release_notes": "Simulate: Share simulation saves the whole simulation as one .html, an empty program shows its stock, the straight view keeps the whole stock in view, and the divider beside it drags. Toolpaths: a MACHINE drop-down with + Add machine. Right-click Reconstruct opens a program in G-SEND CAD/CAM's Import G-code. Tabs show the whole file name when there is room. Speeds & Feeds: 4140 is a built-in material. Update messages say it updates when you close the app."
     }
   }
 }
