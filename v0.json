@@ -4,12 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.516",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.516/G-SEND-V0-IDE-Update-6.0.516.exe",
-      "sha256": "1b9a8b0efbc5e0fdbb9a4b4860cf8695ec7816f82b12bd3e3036f2be849ac1ea",
+      "latest_version": "6.0.521",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.521/G-SEND-V0-IDE-Update-6.0.521.exe",
+      "sha256": "d5267f31c5f518baefbe1bf5221b437e44b42a8f0d7e39e4bf34154c8fdc5d2b",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate: Share simulation saves the whole simulation as one .html, an empty program shows its stock, the straight view keeps the whole stock in view, and the divider beside it drags. Toolpaths: a MACHINE drop-down with + Add machine. Right-click Reconstruct opens a program in G-SEND CAD/CAM's Import G-code. Tabs show the whole file name when there is room. Speeds & Feeds: 4140 is a built-in material. Update messages say it updates when you close the app."
+      "release_notes": "Beta update. Training records made by the add-in are converted once, the first time G-SEND.IO opens, so the new CAD CAM can read them. Open G-SEND.IO once after updating."
+    },
+    "cadcam": {
+      "product": "cadcam",
+      "schema": 1,
+      "latest_version": "0.1.2242",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2242/G-SEND-V0-CADCAM-Update-0.1.2242.exe",
+      "sha256": "b44a62d57b556d5a3474b24140fc9b2808e96fa5a97df42708fbdc3f89f8c48b",
+      "min_supported_version": "0.1.0",
+      "mandatory": false,
+      "release_notes": "Beta: the new sketch and 3D engine. Sketches with dimensions and constraints; extrude and revolve with more options; fillets and chamfers; holes in standard sizes; mirror and patterns; shell, draft, sweep, pipe and loft; move and copy bodies. Tools that aren't finished yet say \"coming soon\". Lathe posting matches proven programs more closely (program comment, drilling, threading, finishing). Larger UNC thread sizes. Cleaner screens: a shorter timeline, a Browser you can drag wider, easier scroll bars, warnings that fold away, tool warnings shown on the tools, and the G00 icon on the taskbar. Files saved in this version may not open in older versions."
     }
   }
 }
