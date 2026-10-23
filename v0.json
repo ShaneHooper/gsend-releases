@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.553",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.553/G-SEND-V0-IDE-Update-6.0.553.exe",
-      "sha256": "536ff0c8b3d8e5fa57ac1d2f6d39a8a259b9751ed23bb6adca16a4bce0e28180",
+      "latest_version": "6.0.556",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.556/G-SEND-V0-IDE-Update-6.0.556.exe",
+      "sha256": "5dbad8024312483ebbde1c1dbcec903ce1b76baef54d95f57d90d2babf8ec97b",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Safer updates: an update now waits for G-SEND.IO to close completely and puts the old files back if anything goes wrong, so a failed update can no longer leave G-SEND.IO unable to start. Program Manager's design sync: the tick boxes are visible, Select all / none, and Export says what it needs. Also: Simulate's lathe Tools list and stock size boxes, and Check for Updates reports CAD CAM too."
+      "release_notes": "Simulate (lathe): Auto stock at the top of STOCK - it guesses the bar from the program; type an OD or Length to set your own, the Auto stock button turns the guess back on. OD / ID labels, Front Z starts at .1. Groove and Cutoff tool types (DOVETAIL reads as a groove), inserted drills cut with a flat point, and a nose radius in the tool comment (R.0156) is used."
     },
     "cadcam": {
       "product": "cadcam",
