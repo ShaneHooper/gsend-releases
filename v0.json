@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.2627",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2627/G-SEND-V0-CADCAM-Update-0.1.2627.exe",
-      "sha256": "c97092985b2b19ef81a740ac6a9f0168263edc2128954afdb49bcbd0797e1b3e",
+      "latest_version": "0.1.2644",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2644/G-SEND-V0-CADCAM-Update-0.1.2644.exe",
+      "sha256": "7105deb739083a40464c103d7fbf8a480eb7915e3eb23b67a0fcb26107376196",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Beta 2: the CAD / CAM switch stays where you put it; clicking a setup (or Ctrl-picking toolpaths) shows all their toolpath lines; six new tool models for Simulate (1/2, 3/4 and 1 in end mills, a No. 3 center drill, a 1/4 in drill, a 1.25 in face mill)."
+      "release_notes": "SIMULATE in the Post window opens the program in G-SEND.IO's Simulate (with G-SEND.IO 6.0.563 or newer). Enter is OK in toolpath and setup windows. The Teach window's details are folded at the bottom. Shared simulations draw each tool as Simulate does, with the G-SEND.IO logo. Tools called DOVETAIL read as grooves."
     }
   }
 }
