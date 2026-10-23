@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.556",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.556/G-SEND-V0-IDE-Update-6.0.556.exe",
-      "sha256": "5dbad8024312483ebbde1c1dbcec903ce1b76baef54d95f57d90d2babf8ec97b",
+      "latest_version": "6.0.563",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.563/G-SEND-V0-IDE-Update-6.0.563.exe",
+      "sha256": "5c2fa6f8d371dd5d8c34bb0e4e59c259d650251eda8a46a77665b0b5ff19b8e5",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate (lathe): Auto stock at the top of STOCK - it guesses the bar from the program; type an OD or Length to set your own, the Auto stock button turns the guess back on. OD / ID labels, Front Z starts at .1. Groove and Cutoff tool types (DOVETAIL reads as a groove), inserted drills cut with a flat point, and a nose radius in the tool comment (R.0156) is used."
+      "release_notes": "Setup Sheet: right-click in the editor - stock, operations in order and every tool with its type and size (from your keywords); Copy, Print, Save PDF. Shared simulations draw each tool as Simulate does (boring bars included) and carry the G-SEND.IO logo. G-SEND.IO can now open a program straight into Simulate (for CAD CAM's SIMULATE button, coming in its next update)."
     },
     "cadcam": {
       "product": "cadcam",
