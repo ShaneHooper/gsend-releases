@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.542",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.542/G-SEND-V0-IDE-Update-6.0.542.exe",
-      "sha256": "e3d11070f04261b38fe3c321a06e05773e35da363f70d44a795cd72293f3765f",
+      "latest_version": "6.0.547",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.547/G-SEND-V0-IDE-Update-6.0.547.exe",
+      "sha256": "715e84de6a1a4ca7b4266c99f7bc7611f050fa5a322b92960eea6cad417bb3f9",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Pressing PLAY on a lathe program no longer stops with an error. The add-in's Scan and Launch buttons now open this version of G-SEND.IO instead of the older one. If your CAD software was open during the update, restart it after this update installs."
+      "release_notes": "Simulate: lathe programs get their Tools list back (every tool, its type and size, correctable) and the stock size boxes (bar diameter, length, front Z, bore). The hover note over the Simulate view is gone. Help > Check for Updates now says where CAD CAM stands too."
     },
     "cadcam": {
       "product": "cadcam",
