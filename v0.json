@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.2623",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2623/G-SEND-V0-CADCAM-Update-0.1.2623.exe",
-      "sha256": "2020bb786ba1e407c10341a7d490c3bd2ebd9dabb9f42c38b94255d16773ded4",
+      "latest_version": "0.1.2627",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2627/G-SEND-V0-CADCAM-Update-0.1.2627.exe",
+      "sha256": "c97092985b2b19ef81a740ac6a9f0168263edc2128954afdb49bcbd0797e1b3e",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Operation panels are simpler: no summary line, pick buttons in one column, a new Start at option, and a new default pocket stepover. In the browser, names fill the row, toolpaths can be separated or combined, and CAD mode hides the CAM rows. New tool models for a 2 inch four-tooth face mill and its holder."
+      "release_notes": "Beta 2: the CAD / CAM switch stays where you put it; clicking a setup (or Ctrl-picking toolpaths) shows all their toolpath lines; six new tool models for Simulate (1/2, 3/4 and 1 in end mills, a No. 3 center drill, a 1/4 in drill, a 1.25 in face mill)."
     }
   }
 }
