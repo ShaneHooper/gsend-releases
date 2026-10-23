@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.547",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.547/G-SEND-V0-IDE-Update-6.0.547.exe",
-      "sha256": "715e84de6a1a4ca7b4266c99f7bc7611f050fa5a322b92960eea6cad417bb3f9",
+      "latest_version": "6.0.553",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.553/G-SEND-V0-IDE-Update-6.0.553.exe",
+      "sha256": "536ff0c8b3d8e5fa57ac1d2f6d39a8a259b9751ed23bb6adca16a4bce0e28180",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate: lathe programs get their Tools list back (every tool, its type and size, correctable) and the stock size boxes (bar diameter, length, front Z, bore). The hover note over the Simulate view is gone. Help > Check for Updates now says where CAD CAM stands too."
+      "release_notes": "Safer updates: an update now waits for G-SEND.IO to close completely and puts the old files back if anything goes wrong, so a failed update can no longer leave G-SEND.IO unable to start. Program Manager's design sync: the tick boxes are visible, Select all / none, and Export says what it needs. Also: Simulate's lathe Tools list and stock size boxes, and Check for Updates reports CAD CAM too."
     },
     "cadcam": {
       "product": "cadcam",
