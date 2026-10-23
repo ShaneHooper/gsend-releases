@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.563",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.563/G-SEND-V0-IDE-Update-6.0.563.exe",
-      "sha256": "5c2fa6f8d371dd5d8c34bb0e4e59c259d650251eda8a46a77665b0b5ff19b8e5",
+      "latest_version": "6.0.567",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.567/G-SEND-V0-IDE-Update-6.0.567.exe",
+      "sha256": "7b0dbae1cfb1338af9800b11c5c20b32d38d3c5de75ce0510dab70aee66e849b",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Setup Sheet: right-click in the editor - stock, operations in order and every tool with its type and size (from your keywords); Copy, Print, Save PDF. Shared simulations draw each tool as Simulate does (boring bars included) and carry the G-SEND.IO logo. G-SEND.IO can now open a program straight into Simulate (for CAD CAM's SIMULATE button, coming in its next update)."
+      "release_notes": "In the add-in's Train panel, Part and Checks are now grouped under a Details section that starts closed. Check for Updates can now be started from CAD CAM as well."
     },
     "cadcam": {
       "product": "cadcam",
