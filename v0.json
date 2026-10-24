@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.580",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.580/G-SEND-V0-IDE-Update-6.0.580.exe",
-      "sha256": "9c765785bce9fd63ab4493ed9f3e52c105dd04687c56b41ab6cc2ef73904c7eb",
+      "latest_version": "6.0.582",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.582/G-SEND-V0-IDE-Update-6.0.582.exe",
+      "sha256": "492af83bbdfd9b2b640362fa92c24a33209d781282a152ffa78ec11746860f3a",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Fusion Sync: the add-in's Scan opens G-SEND.IO on Fusion Sync; a progress bar on each design while it exports; press a tick box and drag to tick or untick many at once. The add-in's Speeds & Feeds is locked until a key is entered (Settings > Key). Settings > API Keys: OpenAI, Anthropic and GROK link to where you make a key. Calculator: Tab jumps to the next calculator. Shared simulations are lit like Simulate (gold inserts, steel holders)."
+      "release_notes": "Simulate's view cube no longer shows a note when the mouse is over it. The add-in for your CAD software is updated with it (close that program before updating)."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.2652",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2652/G-SEND-V0-CADCAM-Update-0.1.2652.exe",
-      "sha256": "ab79af8b78a819816840afa7eea8c61a5acf676d2688947e20c8d828cc5dcc6d",
+      "latest_version": "0.1.2681",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2681/G-SEND-V0-CADCAM-Update-0.1.2681.exe",
+      "sha256": "fc17e1e168aec305c8b6d65f288f26c13ef80bac1e5e34fe5241e77c2c09b677",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Simulate now moves like G-SEND.IO's while simulating: pan with middle or Ctrl drag, turn with Shift or right drag, the wheel zooms about the middle, the same view cube. Help \u2192 Check for Updates. Shared simulations move the same way and carry the G-SEND.IO wordmark."
+      "release_notes": "New setups are named OP1, OP2, OP3. Drag toolpaths and setups in the Browser to change their order, and copy / paste them with Ctrl+C / Ctrl+V; a separated toolpath shows a symbol. 2D Pocket picks a pocket when you click inside it; every pick row has a trash can, and clicking a pick again unpicks it. The Setup window has a Work holding section at the bottom and Z0 on a clicked face. The Post window's first button opens the program in G-SEND.IO's code editor. Tool Library is now Tools. New app and Setup icons, clearer feature previews, better lighting on shared simulations."
     }
   }
 }
