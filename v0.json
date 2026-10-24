@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.2644",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2644/G-SEND-V0-CADCAM-Update-0.1.2644.exe",
-      "sha256": "7105deb739083a40464c103d7fbf8a480eb7915e3eb23b67a0fcb26107376196",
+      "latest_version": "0.1.2652",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2652/G-SEND-V0-CADCAM-Update-0.1.2652.exe",
+      "sha256": "ab79af8b78a819816840afa7eea8c61a5acf676d2688947e20c8d828cc5dcc6d",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "SIMULATE in the Post window opens the program in G-SEND.IO's Simulate (with G-SEND.IO 6.0.563 or newer). Enter is OK in toolpath and setup windows. The Teach window's details are folded at the bottom. Shared simulations draw each tool as Simulate does, with the G-SEND.IO logo. Tools called DOVETAIL read as grooves."
+      "release_notes": "Simulate now moves like G-SEND.IO's while simulating: pan with middle or Ctrl drag, turn with Shift or right drag, the wheel zooms about the middle, the same view cube. Help \u2192 Check for Updates. Shared simulations move the same way and carry the G-SEND.IO wordmark."
     }
   }
 }
