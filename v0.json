@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.567",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.567/G-SEND-V0-IDE-Update-6.0.567.exe",
-      "sha256": "7b0dbae1cfb1338af9800b11c5c20b32d38d3c5de75ce0510dab70aee66e849b",
+      "latest_version": "6.0.570",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.570/G-SEND-V0-IDE-Update-6.0.570.exe",
+      "sha256": "65afd4880a3d508fb8cbfcd5e0082900bb6e0875ce3dce7524f2fbdfb15ad95c",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "In the add-in's Train panel, Part and Checks are now grouped under a Details section that starts closed. Check for Updates can now be started from CAD CAM as well."
+      "release_notes": "Shared simulations move like Simulate: pan (middle or Ctrl drag), turn (Shift or right drag), the wheel zooms the right way, the same view cube; the G-SEND.IO wordmark links to 3ddistributed.com/g-send.io. The Fusion add-in's Train window folds its part and check details. CAD CAM's Check for Updates can hand off to G-SEND.IO."
     },
     "cadcam": {
       "product": "cadcam",
