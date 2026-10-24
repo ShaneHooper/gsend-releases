@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.582",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.582/G-SEND-V0-IDE-Update-6.0.582.exe",
-      "sha256": "492af83bbdfd9b2b640362fa92c24a33209d781282a152ffa78ec11746860f3a",
+      "latest_version": "6.0.589",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.589/G-SEND-V0-IDE-Update-6.0.589.exe",
+      "sha256": "293ef32586ea242627ee5881f49560a77ec1bbd8619723c38425be5cb6de6035",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate's view cube no longer shows a note when the mouse is over it. The add-in for your CAD software is updated with it (close that program before updating)."
+      "release_notes": "Simulate: the Toolpath box hides every toolpath line and a new Rapid moves box hides the rapid moves; both are on by default. Toolpath Studio's General page is a table. Opened from CAD CAM, G-SEND.IO comes up maximized."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.2681",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2681/G-SEND-V0-CADCAM-Update-0.1.2681.exe",
-      "sha256": "fc17e1e168aec305c8b6d65f288f26c13ef80bac1e5e34fe5241e77c2c09b677",
+      "latest_version": "0.1.2688",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.2688/G-SEND-V0-CADCAM-Update-0.1.2688.exe",
+      "sha256": "d73729c4e87bd7a131aab9c226a444284138acfead9c86f0d6e8874a6daedaf1",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "New setups are named OP1, OP2, OP3. Drag toolpaths and setups in the Browser to change their order, and copy / paste them with Ctrl+C / Ctrl+V; a separated toolpath shows a symbol. 2D Pocket picks a pocket when you click inside it; every pick row has a trash can, and clicking a pick again unpicks it. The Setup window has a Work holding section at the bottom and Z0 on a clicked face. The Post window's first button opens the program in G-SEND.IO's code editor. Tool Library is now Tools. New app and Setup icons, clearer feature previews, better lighting on shared simulations."
+      "release_notes": "Simulate's Toolpath and Rapid moves boxes as in G-SEND.IO. Right-click DRILL on the ribbon, or the Tool row of a Drill / Tap / Thread Mill / Spiral window, to open the Drill Chart; typing after clicking a row goes to its search box. OPEN IN CODE EDITOR and SIMULATE open G-SEND.IO maximized."
     }
   }
 }
