@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.570",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.570/G-SEND-V0-IDE-Update-6.0.570.exe",
-      "sha256": "65afd4880a3d508fb8cbfcd5e0082900bb6e0875ce3dce7524f2fbdfb15ad95c",
+      "latest_version": "6.0.580",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.580/G-SEND-V0-IDE-Update-6.0.580.exe",
+      "sha256": "9c765785bce9fd63ab4493ed9f3e52c105dd04687c56b41ab6cc2ef73904c7eb",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Shared simulations move like Simulate: pan (middle or Ctrl drag), turn (Shift or right drag), the wheel zooms the right way, the same view cube; the G-SEND.IO wordmark links to 3ddistributed.com/g-send.io. The Fusion add-in's Train window folds its part and check details. CAD CAM's Check for Updates can hand off to G-SEND.IO."
+      "release_notes": "Fusion Sync: the add-in's Scan opens G-SEND.IO on Fusion Sync; a progress bar on each design while it exports; press a tick box and drag to tick or untick many at once. The add-in's Speeds & Feeds is locked until a key is entered (Settings > Key). Settings > API Keys: OpenAI, Anthropic and GROK link to where you make a key. Calculator: Tab jumps to the next calculator. Shared simulations are lit like Simulate (gold inserts, steel holders)."
     },
     "cadcam": {
       "product": "cadcam",
