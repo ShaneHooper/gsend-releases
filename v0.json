@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.616",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.616/G-SEND-V0-IDE-Update-6.0.616.exe",
-      "sha256": "c32b4f9298a19c7bc03ad8df1502259a8c98cb4c3f3cb9309e810c8fec22785b",
+      "latest_version": "6.0.623",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.623/G-SEND-V0-IDE-Update-6.0.623.exe",
+      "sha256": "37959e4d9017e4aaee02adebe83c2e44bfa5691b26567e39c327307481babe23",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "A program posted again while you are editing it opens in a tab of its own, marked new; your edits stay in the other tab, and saving that one asks before going over the newer file. Simulate: a center drill in the tool list and keywords, drawn as a real center drill; cutters 2 inches and larger drawn as face mills; switching the stock to Round puts its origin at the center."
+      "release_notes": "Every number box takes fractions and simple math: 5/32, 1-1/4, 1/2+.0625, 25.4mm. A tool size in a program's comments like 5/32 DRILL is read as inches, 6MM as metric."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.3157",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3157/G-SEND-V0-CADCAM-Update-0.1.3157.exe",
-      "sha256": "94e51ee78ea4bf7c1dc356ad1d91e5ea6652c335c694c7d4424bbd874f6e2839",
+      "latest_version": "0.1.3261",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3261/G-SEND-V0-CADCAM-Update-0.1.3261.exe",
+      "sha256": "da29d704558c42396694c4aaad657b0f8fd5b108af74ccbe64ea41fe731e78e0",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Program It: a turning program from the part in one click, with a review panel. Sketch on a diameter (a plane tangent to a round face). Pattern along a path. Center drills and custom mill tools in Tools, drawn in Simulate; cutters 2 inches and larger drawn as face mills. The Speed and Feed Database first in the list. Lathe Drill / Tap cycle."
+      "release_notes": "Several parts open at once, one tab each (Ctrl+Tab switches). Every number box takes fractions and simple math: 5/32, 1-1/4, 1/2+.0625, 25.4mm; a box that can't be used says why instead of being greyed. G-code import reads a tool's size from its comment: 5/32 DRILL = .15625, 6MM = metric. Loft guide curves, sweep guide rails and twist, variable-radius fillets, sweep around a full circle. Simulate: Round stock puts its origin at the center."
     }
   }
 }
