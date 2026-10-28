@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.3429",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3429/G-SEND-V0-CADCAM-Update-0.1.3429.exe",
-      "sha256": "54b12d1b6d7f8f2e4d6c185f274474b48842a7e420374355f6206fa59c726783",
+      "latest_version": "0.1.3571",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3571/G-SEND-V0-CADCAM-Update-0.1.3571.exe",
+      "sha256": "30b4a94d70d74c60b1ac13d63913035fb5b95687e2658d91ac2b045da85e84f3",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "The gap warning is fixed: a part only warns when a gap is really there (over 0.0005\"), and an imported part's tiny gaps are shown in its hover, not as a warning. The 3D drawing view and Section View work again. Drill Chart: a click picks a size, a double-click fills it in. Bolt circles get a diameter circle you can pull and a start angle you can turn. 2D Contour leads snap to segment ends and can be arcs. Every toolpath pick lights up under the mouse; Alt picks one segment. Soft jaws. Square corners on new 2D Contours and Pockets (on by default). The view cube takes a typed angle and snaps by 5 degrees. The 3D sheet view turns, tilts and orbits freely; a double-click on the paper lays it flat. Many fixes from ENGINE TEST run 7. Parts saved by this version use file format 6; an older version opens them read-only."
+      "release_notes": "A part now keeps the tools it was programmed with: it posts the same code on any computer's tool library, and says so when that library holds a different tool (the part's tools can be added to the library when it opens). Saved toolpaths and processes: right-click to save one or several, insert them into any setup. Save Setting / Restore Setting on any value in a toolpath window. Post Builder (Utilities): teach it your machine's code from a sample part or your own program, and it builds a post that writes that format. Part Properties, Measure (edge length, diameter, distance between faces, angles), Interference, Simplify and Emboss / Engrave. New CAM and CAD ribbons; toolpaths show only while picked; every Quick toolpath shows only the dimensions that place it. New parts open in CAD. The AI connection is fixed on every install and update. Parts saved by this version use file format 6; an older version opens them read-only."
     }
   }
 }
