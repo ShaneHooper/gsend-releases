@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.635",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.635/G-SEND-V0-IDE-Update-6.0.635.exe",
-      "sha256": "ec9c0afd252d0710546009ec9c4989eca75df38dd222aadd5a197b7ab68555ad",
+      "latest_version": "6.0.653",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.653/G-SEND-V0-IDE-Update-6.0.653.exe",
+      "sha256": "e900cf1cb4bf3542321f92b0a1d88e60123f8af40db3812395b0cea47bdce769",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate: Shift + drag and right drag now turn the view freely, on over the top and underneath. Continue Pattern stops exactly at a CONTINUE UNTIL value (e.g. CONTINUE UNTIL Z-1.6551) and never goes past it."
+      "release_notes": "The taskbar button shows the G00 logo (it showed a blank white and green icon)."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.3609",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3609/G-SEND-V0-CADCAM-Update-0.1.3609.exe",
-      "sha256": "60f321242cf2c15ee0b5463284c20cf682eadd3c2b42e688b213ce6f38f2bb59",
+      "latest_version": "0.1.3739",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3739/G-SEND-V0-CADCAM-Update-0.1.3739.exe",
+      "sha256": "bf9d8a5ba1ecdabc960a9e9a991f6960392158d11c486bd68dbb005a1fd4f469",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Toolpath Extension: type a length and every cutting pass runs on that much further at both ends (Face, 2D Contour, Roughing, 2D Pocket, 3D Finish, Edge Break). Hide a body (its Browser dot, or right-click Hide / Show Body). Export a drawing as a 3D PDF or a 3D sheet you can turn in any browser. A setup can start from the stock the setup before it left, and Export Stock saves what the toolpaths leave. Simulate turns freely with Shift + drag. Separated toolpaths show the Separate symbol on both. Finer arcs on follow Roughing."
+      "release_notes": "Program It: makes only a program that passes its own checks, else says plainly what stops it; asks Replace / Add after / Cancel on a part that already has a program. New mill posts: Doosan DNM4500 (Fanuc), Brother R450X1 (Speedio), Haas VF-2SS (Next Gen). Turning: a neutral insert held off both walls of a ring groove; Groove no longer rapids through stock left by a Roughing; 1/32 nose radius written R0.0313. Right-click a file tab: New, Open, Close (a file always stays open). TRAIN is now TRAIN AI; LEARNED has a book icon. Backup: every save also writes the same file into your backup folder. Sketch: dimension to a part's edge, Delete removes a dimension, a fainter grid over a part, a sketch on a picked face no longer stays blue. Quick Setup: one value box while dragging the origin, measured from where the drag started. Simulate: new ball nose end mill and neutral holder models. Faster undo and autosave; safer AI connection."
     }
   }
 }
