@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.3804",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3804/G-SEND-V0-CADCAM-Update-0.1.3804.exe",
-      "sha256": "86033a408622737f7111abe6867c54bb1169ace3f9230f32d5a175543ec7cac9",
+      "latest_version": "0.1.3816",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3816/G-SEND-V0-CADCAM-Update-0.1.3816.exe",
+      "sha256": "45cdef78c1901665615fb34094bd83f762ed4142c26a6a4d139eb26dc71b0996",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Mill: Boundary row on 2D Contour / 2D Pocket / Edge Break (the whole tool stays inside); Post window \"Also at\" G55 G56 ... (Doosan, Brother, Haas VF-2SS posts); those three posts on the Post with list, \"(example)\" dropped. Turning: Groove Rough and Groove Finish. Simulate: INSERT TRIM POINT (trim up to / from here); Speed slider; right-click Save / Restore Setting; File > Simulate G-code cuts in Rust too; tools drawn their real length and in proportion (drills, end mills, taps); toolpath and Simulate lines half as bold. Right-click a tool > Make default for the op. Tool Library: Milling / Holes boxes, drop-downs show full names. Drawings: D opens Dimension; dimensions on the isometric view. 3D sheet and 3D PDF: G-SEND.IO logo + link, drawing-window mouse, Direct View. Edge Break: a sharp model edge gets the default break. Quick Chamfer lights the edge under the cursor. Mill Face has its own icon. The Browser is now the Work Tree; shorter origin axes; lighter picked highlight; white arrow cursor. G-code import window fits the screen. Chamfer mill keywords."
+      "release_notes": "Export Model to G-SEND Drawing: a model sent from the CAD add-in opens as a new part, straight into its drawing (front, top, right and iso views). Copy and paste: Ctrl+C / Ctrl+V on sketch geometry (with its rules and dimensions) and on bodies. Save while in a sketch saves the sketch and keeps you in it; Open brings you back to it. Sketch: geometry on an origin axis stays on it when a dimension changes, and a rule that is already set is shown as a reference instead of turning the sketch red."
     }
   }
 }
