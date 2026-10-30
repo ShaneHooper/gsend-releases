@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.653",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.653/G-SEND-V0-IDE-Update-6.0.653.exe",
-      "sha256": "e900cf1cb4bf3542321f92b0a1d88e60123f8af40db3812395b0cea47bdce769",
+      "latest_version": "6.0.710",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.710/G-SEND-V0-IDE-Update-6.0.710.exe",
+      "sha256": "77ebe79d9b07fef2f13244adab8bb7bd73976ffe1b4ba0e157464455fa88ce22",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "The taskbar button shows the G00 logo (it showed a blank white and green icon)."
+      "release_notes": "Simulate: the stock cut in Rust by default (faster); toolpath lines half as bold; tools drawn their real length and in proportion; CHAMFER MILL / END MILL / BALL MILL tool types. Automations: right-click or Delete removes a queue row. Add-in: Lathe Mode taken out; speeds & feeds fixes, impossible rows refused."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.3739",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3739/G-SEND-V0-CADCAM-Update-0.1.3739.exe",
-      "sha256": "bf9d8a5ba1ecdabc960a9e9a991f6960392158d11c486bd68dbb005a1fd4f469",
+      "latest_version": "0.1.3804",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3804/G-SEND-V0-CADCAM-Update-0.1.3804.exe",
+      "sha256": "86033a408622737f7111abe6867c54bb1169ace3f9230f32d5a175543ec7cac9",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Program It: makes only a program that passes its own checks, else says plainly what stops it; asks Replace / Add after / Cancel on a part that already has a program. New mill posts: Doosan DNM4500 (Fanuc), Brother R450X1 (Speedio), Haas VF-2SS (Next Gen). Turning: a neutral insert held off both walls of a ring groove; Groove no longer rapids through stock left by a Roughing; 1/32 nose radius written R0.0313. Right-click a file tab: New, Open, Close (a file always stays open). TRAIN is now TRAIN AI; LEARNED has a book icon. Backup: every save also writes the same file into your backup folder. Sketch: dimension to a part's edge, Delete removes a dimension, a fainter grid over a part, a sketch on a picked face no longer stays blue. Quick Setup: one value box while dragging the origin, measured from where the drag started. Simulate: new ball nose end mill and neutral holder models. Faster undo and autosave; safer AI connection."
+      "release_notes": "Mill: Boundary row on 2D Contour / 2D Pocket / Edge Break (the whole tool stays inside); Post window \"Also at\" G55 G56 ... (Doosan, Brother, Haas VF-2SS posts); those three posts on the Post with list, \"(example)\" dropped. Turning: Groove Rough and Groove Finish. Simulate: INSERT TRIM POINT (trim up to / from here); Speed slider; right-click Save / Restore Setting; File > Simulate G-code cuts in Rust too; tools drawn their real length and in proportion (drills, end mills, taps); toolpath and Simulate lines half as bold. Right-click a tool > Make default for the op. Tool Library: Milling / Holes boxes, drop-downs show full names. Drawings: D opens Dimension; dimensions on the isometric view. 3D sheet and 3D PDF: G-SEND.IO logo + link, drawing-window mouse, Direct View. Edge Break: a sharp model edge gets the default break. Quick Chamfer lights the edge under the cursor. Mill Face has its own icon. The Browser is now the Work Tree; shorter origin axes; lighter picked highlight; white arrow cursor. G-code import window fits the screen. Chamfer mill keywords."
     }
   }
 }
