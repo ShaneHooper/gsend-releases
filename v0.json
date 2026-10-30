@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.710",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.710/G-SEND-V0-IDE-Update-6.0.710.exe",
-      "sha256": "77ebe79d9b07fef2f13244adab8bb7bd73976ffe1b4ba0e157464455fa88ce22",
+      "latest_version": "6.0.714",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.714/G-SEND-V0-IDE-Update-6.0.714.exe",
+      "sha256": "986cae6c1f4286e3c0aba9e1f1d8c153f2f2f27cc95836531ad7464d1d42426b",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Simulate: the stock cut in Rust by default (faster); toolpath lines half as bold; tools drawn their real length and in proportion; CHAMFER MILL / END MILL / BALL MILL tool types. Automations: right-click or Delete removes a queue row. Add-in: Lathe Mode taken out; speeds & feeds fixes, impossible rows refused."
+      "release_notes": "Fusion add-in: Export tab > Export Model to G-SEND Drawing - one click sends the open design to G-SEND CAD CAM, which opens it as a new part straight into its drawing (front, top, right and iso views). Check (editor right-click) now also runs the program checks - e.g. two Z words on one line - and lists them with their line and operation."
     },
     "cadcam": {
       "product": "cadcam",
