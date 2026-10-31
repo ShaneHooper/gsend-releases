@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.714",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.714/G-SEND-V0-IDE-Update-6.0.714.exe",
-      "sha256": "986cae6c1f4286e3c0aba9e1f1d8c153f2f2f27cc95836531ad7464d1d42426b",
+      "latest_version": "6.0.718",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.718/G-SEND-V0-IDE-Update-6.0.718.exe",
+      "sha256": "0b213d4b293910ee8a66c9de890f32ddc3fb7f8d97458f2d1371d7b4d2ba36aa",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Fusion add-in: Export tab > Export Model to G-SEND Drawing - one click sends the open design to G-SEND CAD CAM, which opens it as a new part straight into its drawing (front, top, right and iso views). Check (editor right-click) now also runs the program checks - e.g. two Z words on one line - and lists them with their line and operation."
+      "release_notes": "Settings: Install / Update Add-in. Settings > Key shows checked and (admin mode) while a key is in. Add-in Export tab: Export Model to G-SEND Drawing. Check reports what the rules find, not only what the model noticed."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.3855",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3855/G-SEND-V0-CADCAM-Update-0.1.3855.exe",
-      "sha256": "509359b7e427405cfce50d34b1037dc7bcf0a6c899e9f36a70421e7b4dd96519",
+      "latest_version": "0.1.3861",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.3861/G-SEND-V0-CADCAM-Update-0.1.3861.exe",
+      "sha256": "36c818e9dac1ba9bb96722a6ed45f6736fcde9826c4fc1a74a2e400e7b4c1d7b",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Quick Setup for the lathe: with no model, CAM starts a mill OP1 with a one-click Mill / Lathe switch; the lathe window builds the part from steps (bar out of the jaws or whole bar, .030 face-off, steps by length or Z, front and back corner breaks) and programs face, OD rough, OD finish and part-off. Sketch: a click selects a line in blue and no longer puts up a dimension (Constrained; D still does); the hover line is thinner; the H / V / C rule marks show only on the shape hovered or selected (Constraints: All turns them all on). Ctrl+V: the copy follows the cursor - click to place it, or type a distance and Enter (a line stays parallel to its original). The Fix tool fixes a line's end that sits on the origin. Toolpaths: right-click a value box offers only Save Setting / Restore Setting; right-click the Tool row to save your default tool (Quick toolpaths too). Setup: right-click Machine or Milling / Turning to save it as the default. View cube: after a roll, type an angle and Enter. Quick program dimension lines are thinner."
+      "release_notes": "Lathe Quick Setup: CAM with no model opens the lathe window - the bar out of the jaws or the whole bar, steps by length or Z with an edge break each, and the part plus OP1 (face, rough, finish, part off) made together; one click switches a mill setup to it. Copy and paste: Ctrl+C / Ctrl+V on sketch geometry and on bodies; a pasted copy follows the cursor, a typed distance places it, a pasted line moves only square across itself (Alt any way). Sketch: a click selects in blue; hover lines thinner; the H / V / C marks hidden unless Constraints: All is on; geometry on an origin axis stays on it; redundant constraints no longer turn the sketch red; Fix on an end at the origin fixes that end; no banner over the view; Save while in a sketch saves it. Export Model to G-SEND Drawing: a STEP opens straight into its drawing. Drawings: print follows the sheet, near flat snaps to Direct View, wheel zoom as in the model, title block text centred. Save Setting on the Setup window's Machine and Milling / Turning rows and on Tool rows. View cube: type an angle after a roll. Thinner Quick dimension lines."
     }
   }
 }
