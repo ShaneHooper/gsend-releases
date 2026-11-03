@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.718",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.718/G-SEND-V0-IDE-Update-6.0.718.exe",
-      "sha256": "0b213d4b293910ee8a66c9de890f32ddc3fb7f8d97458f2d1371d7b4d2ba36aa",
+      "latest_version": "6.0.720",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.720/G-SEND-V0-IDE-Update-6.0.720.exe",
+      "sha256": "d3d8b07b24ee33a3ffc1c2fb279c7c062fc7dab3bf3ddeefee51d3802ac9d16b",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Settings: Install / Update Add-in. Settings > Key shows checked and (admin mode) while a key is in. Add-in Export tab: Export Model to G-SEND Drawing. Check reports what the rules find, not only what the model noticed."
+      "release_notes": "Updates: if CAD CAM is still open when G-SEND.IO closes, you are asked to close it, and CAD CAM's update installs. Before, it waited without a word."
     },
     "cadcam": {
       "product": "cadcam",
