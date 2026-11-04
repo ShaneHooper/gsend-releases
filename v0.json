@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.4033",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4033/G-SEND-V0-CADCAM-Update-0.1.4033.exe",
-      "sha256": "905bac983a78fdb631ec3fdeea2b918366f31bab7519c5d2d038ca36956d9590",
+      "latest_version": "0.1.4274",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4274/G-SEND-V0-CADCAM-Update-0.1.4274.exe",
+      "sha256": "240e95fc4a43602a2da04fb01af46de9b437fc0fc20af9e452606382ee64b66f",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Faster all round: startup without the heavy data libraries, imported parts' checks and holes kept, toolpaths, the turning check and carried stock reused when nothing they read changed, Simulate's playhead and stock, sketch dragging, display meshes, saves and undo, and an idle 3D view that draws nothing. Quick Setup for the lathe: Stock diameter, right-click Save / Restore Setting, a longer step grows the bar; roughing and contour run past the back end when a part-off follows. Sketch ribbon: Chamfer has its own button beside Fillet. Lighter fillet / chamfer edge lines. Simulate: the lathe holder is see-through so the insert shows. Program It: each line's note folds under it. 3D sheet: snaps back from 15 degrees and opens shared pages in Direct View. Z-level finishing: a waterline beside a region's edge comes out as one loop. The generic mill post was removed - pick your machine's post; files that named it still open."
+      "release_notes": "Recognize Part runs on a new, faster engine, and measures non-turned faces exactly (a .4998 now reads .5000). New 2D Adaptive clearing toolpath (constant load), with its rest machining. Turning Setup: the part starts as Body1, Stock is fixed size from the part (next 1/4\" or 10 mm bar, a bar size goes up one, +.2\" / +4 mm long), the front end is picked by clicking a face. Turning op panel: Spindle M3 / M4 only, no Tool change or Insert turned over rows, the undercut follows the model or what you pick. Quick Setup shows the machine profile; right-click to save it as the default. Post Processors window is plainer: Export a post (right-click) or Export All, Import to bring posts in. Sketch Fillet / Chamfer: click a corner, type the size, Enter; the size carries to the next corners. CAD ribbon reordered: Sketch, Extrude, Revolve, Box, Cylinder, Hole, Thread, Press Pull, Fillet, Chamfer. Fillet / Chamfer: drag a box to pick edges. Drawings: plain views no longer freeze the window; each title block text can be moved, aligned and sized; the 3D sheet page prints the drawing alone on white. Train AI: Data sets with notes and if / then / except rules, arrows with notes on the picture. Fixes: Part Off rule, Simulate's tool lengths, outline text, saving never depends on the post."
     }
   }
 }
