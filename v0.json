@@ -4,12 +4,12 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.720",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.720/G-SEND-V0-IDE-Update-6.0.720.exe",
-      "sha256": "d3d8b07b24ee33a3ffc1c2fb279c7c062fc7dab3bf3ddeefee51d3802ac9d16b",
+      "latest_version": "6.0.733",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.733/G-SEND-V0-IDE-Update-6.0.733.exe",
+      "sha256": "97f7bd87b6d2d6d2ab50a74893c9799064235c0ddb79d77a09ee50acedc469e4",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Updates: if CAD CAM is still open when G-SEND.IO closes, you are asked to close it, and CAD CAM's update installs. Before, it waited without a word."
+      "release_notes": "Updates: Help > Check for Updates has a Force Update button (reinstalls the published version even when it says up to date); when an update could not install, you are told why. Key: entering a key says Key activated and what it unlocks; after each update the key has to be entered again. Also: the AI's check results, Toolpath Studio's right-click menu, syntax errors flagged in the editor, and Train AI's data sets and arrows."
     },
     "cadcam": {
       "product": "cadcam",
