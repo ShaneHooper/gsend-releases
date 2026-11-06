@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.733",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.733/G-SEND-V0-IDE-Update-6.0.733.exe",
-      "sha256": "97f7bd87b6d2d6d2ab50a74893c9799064235c0ddb79d77a09ee50acedc469e4",
+      "latest_version": "6.0.741",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.741/G-SEND-V0-IDE-Update-6.0.741.exe",
+      "sha256": "902f03e5ab42fe5402ddbecbc3423bb5e417d38d03c7a03f18a9903377df0a94",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Updates: Help > Check for Updates has a Force Update button (reinstalls the published version even when it says up to date); when an update could not install, you are told why. Key: entering a key says Key activated and what it unlocks; after each update the key has to be entered again. Also: the AI's check results, Toolpath Studio's right-click menu, syntax errors flagged in the editor, and Train AI's data sets and arrows."
+      "release_notes": "Fusion add-in: Train This Part / Export Model works on a new design that has never been in the Manufacture workspace (it no longer fails with \"failed to find product\").\nSave As comes up as a .txt file; a THREAD keyword reaches a mill program's Simulate.\nLathe Simulate's stock region code matches CAD CAM's."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.4309",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4309/G-SEND-V0-CADCAM-Update-0.1.4309.exe",
-      "sha256": "ea4a87f52bc35920afc37b4d68b44c57a93ea8271a1a11fbe3bf6f4cb588b218",
+      "latest_version": "0.1.4488",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4488/G-SEND-V0-CADCAM-Update-0.1.4488.exe",
+      "sha256": "e8b4e62f423c83dd91935d3a90196d0737b25d460f0ed4cdbd500263ed71e089",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Recognize Part: the part is lit by feature kind, found by a scan sweep front to back; the list sits beside the part, hover lights a feature, a click isolates it, labels follow the view, SECTION cuts through the turning axis. Right-click a body > Recognize Part..., or CAM > Turning > RECOGNIZE. Healed / sewn edges read their true size (2.0001 now 2.0). Drawings: sections, details and broken-out views, and every sheet of a print or export, are made in the background so the window no longer freezes; a drawing shows a quick blue PREVIEW first while the exact lines are made."
+      "release_notes": "Recognize Part: right-click a feature for the toolpaths that fit it (a bolt circle or hole: Drill, Tap, Thread Mill, Spiral Interpolate, 2D Contour), set up from the feature's own sizes and the setup that holds it.\nRecognize Part: a thread only when it is modelled; a STEP file's thread callouts become threads on their faces (FROM PRINT); a part that does not turn is read by its faces; hole patterns and a turned part's milled faces read better.\nTurning: an op's spindle stays Auto when you OK without touching it.\nSketch: a rectangle's size boxes keep clear of the view's buttons.\nDrawings: the first section dimension no longer stalls the window; views let go of work they no longer need.\nSteadier: the crash watchdog reads the stuck stacks; a refused install says so at start."
     }
   }
 }
