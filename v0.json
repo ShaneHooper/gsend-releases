@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.741",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.741/G-SEND-V0-IDE-Update-6.0.741.exe",
-      "sha256": "902f03e5ab42fe5402ddbecbc3423bb5e417d38d03c7a03f18a9903377df0a94",
+      "latest_version": "6.0.751",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.751/G-SEND-V0-IDE-Update-6.0.751.exe",
+      "sha256": "eb4505c3564e6e767e9df28e98909c950c71d9045b85efada518a288088c8629",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Fusion add-in: Train This Part / Export Model works on a new design that has never been in the Manufacture workspace (it no longer fails with \"failed to find product\").\nSave As comes up as a .txt file; a THREAD keyword reaches a mill program's Simulate.\nLathe Simulate's stock region code matches CAD CAM's."
+      "release_notes": "Updates: when an AI app's connection to CAD CAM (or a copy left behind by a closed session) holds it, the update says so and Update Both closes those connections and installs. A CAD CAM window is never closed."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.4488",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4488/G-SEND-V0-CADCAM-Update-0.1.4488.exe",
-      "sha256": "e8b4e62f423c83dd91935d3a90196d0737b25d460f0ed4cdbd500263ed71e089",
+      "latest_version": "0.1.4625",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4625/G-SEND-V0-CADCAM-Update-0.1.4625.exe",
+      "sha256": "0ec34e2bb1198af3b192cc171d60bba30c6464c89c4d14e706214f591494648f",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Recognize Part: right-click a feature for the toolpaths that fit it (a bolt circle or hole: Drill, Tap, Thread Mill, Spiral Interpolate, 2D Contour), set up from the feature's own sizes and the setup that holds it.\nRecognize Part: a thread only when it is modelled; a STEP file's thread callouts become threads on their faces (FROM PRINT); a part that does not turn is read by its faces; hole patterns and a turned part's milled faces read better.\nTurning: an op's spindle stays Auto when you OK without touching it.\nSketch: a rectangle's size boxes keep clear of the view's buttons.\nDrawings: the first section dimension no longer stalls the window; views let go of work they no longer need.\nSteadier: the crash watchdog reads the stuck stacks; a refused install says so at start."
+      "release_notes": "Recognize Part: Ctrl-pick several features and make one toolpath on them all; holes of several sizes open one Drill / Tap / Thread Mill per size, in turn (OK opens the next, Esc stops).\nRecognize Part: Delete a feature (or one hole of a pattern) and Restore it; Merge whole features into one named feature, Unmerge it; F2 renames. Saved with the part.\nRecognize Part: PROGRAM IT button, and the Work Tree's FEATURES folder.\nMilling: new Slot toolpath (ramps in, 1 or 2 passes, stepdown .05\" / 1 mm), with a finish pass round the wall and Wear cutter comp. On the ribbon.\nSetup window: an Advanced fold picks the turning centre line, the origin (Z0) and WCS X from the part or a sketch, for parts turned about a line other than their own axis (a side bore). Second sides follow their first side, and re-picking the line after making toolpaths works them out again on OK.\nSetup window: right-click any row for Save Setting / Restore Setting, so every new setup starts with your value. Saved op settings now come back on every new op.\nSketch: smooth lines, circles and arcs at any zoom; a sketch on a face shows the part behind it as a quiet backdrop.\nAI connection: the key lives in its own file, read first by every route.\nCAD ribbon: Chamfer before Fillet."
     }
   }
 }
