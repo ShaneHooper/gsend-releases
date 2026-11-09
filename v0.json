@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.4625",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4625/G-SEND-V0-CADCAM-Update-0.1.4625.exe",
-      "sha256": "0ec34e2bb1198af3b192cc171d60bba30c6464c89c4d14e706214f591494648f",
+      "latest_version": "0.1.4784",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4784/G-SEND-V0-CADCAM-Update-0.1.4784.exe",
+      "sha256": "33b0e3b222e9eda5ab4de6141e95f1f7102bdfeaa8938ef634df46cf580f75b8",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Recognize Part: Ctrl-pick several features and make one toolpath on them all; holes of several sizes open one Drill / Tap / Thread Mill per size, in turn (OK opens the next, Esc stops).\nRecognize Part: Delete a feature (or one hole of a pattern) and Restore it; Merge whole features into one named feature, Unmerge it; F2 renames. Saved with the part.\nRecognize Part: PROGRAM IT button, and the Work Tree's FEATURES folder.\nMilling: new Slot toolpath (ramps in, 1 or 2 passes, stepdown .05\" / 1 mm), with a finish pass round the wall and Wear cutter comp. On the ribbon.\nSetup window: an Advanced fold picks the turning centre line, the origin (Z0) and WCS X from the part or a sketch, for parts turned about a line other than their own axis (a side bore). Second sides follow their first side, and re-picking the line after making toolpaths works them out again on OK.\nSetup window: right-click any row for Save Setting / Restore Setting, so every new setup starts with your value. Saved op settings now come back on every new op.\nSketch: smooth lines, circles and arcs at any zoom; a sketch on a face shows the part behind it as a quiet backdrop.\nAI connection: the key lives in its own file, read first by every route.\nCAD ribbon: Chamfer before Fillet."
+      "release_notes": "Sketch: dimensions sit outside what they measure, like a drawing, and numbers no longer stack on each other; laid out about twice as fast on big sketches.\nSketch: Fillet / Chamfer keeps one typed size for corner after corner. Trim cuts a line at the crossing, not the whole line.\nHoles: the Quick hole tools start at 0.5000 in (10 mm in a metric part); a drill made for a hole is named by its decimal size. A hole's sketch points hide once the hole uses them and light up while the mouse is on one of its holes.\nQuick Setup: the origin cubes are the right size from the first frame.\nRecognize Part: the corner brackets follow the part through every turn; two threads on one drill size are never one pattern row.\nMilling setups: pick the Z, X, Y and origin from the part (Advanced fold); a part set up with another side up is turned exactly, so its holes and 2D Adaptive come out the same as a picked frame.\n2D Contour: the loops are cut in the same order every time. A picked wall that can't be seen from the setup's side says so in words.\nAI connection: a part an AI opens while you work goes in a tab at the back; positions read in the part's units; a missed face names the nearest faces."
     }
   }
 }
