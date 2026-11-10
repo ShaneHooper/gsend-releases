@@ -14,12 +14,12 @@
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.4792",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4792/G-SEND-V0-CADCAM-Update-0.1.4792.exe",
-      "sha256": "da1a0af40aad335c117e6a7324233d3d137e6beabe33a6d16e57cce7ed4b6a53",
+      "latest_version": "0.1.4817",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4817/G-SEND-V0-CADCAM-Update-0.1.4817.exe",
+      "sha256": "aaa66e312fca9941ddc7addf70e4b2cf4fa3f19a8c51d2964d0c091764ccfbc4",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Sketch: zoomed far out on a busy sketch, the dimensions are laid out in about a quarter of a second instead of up to two; at normal zooms nothing changes.\nDrill toolpath: a size picked on the Drill Chart sets the drill to that size; with no drill that size in the library, one is made (e.g. \"0.2900 Drill (made)\") and picked. Made drills' sizes round like the chart (21/32 = 0.6563).\nSimulate G-code: a tool the program doesn't size is drawn as its own words say (a CENTER DRILL as a 1/4 center drill), not at a size typed for another program."
+      "release_notes": "2D Adaptive: its toolpath is worked out in the background - opening one no longer freezes the window (a 74 s freeze on a simple part is now about a quarter second); every toolpath comes out the same.\nPicking holes, walls and lead-in spots: a click whose mouse moves a little still picks, and the view no longer turns by itself.\nSpiral Interpolate starts with the largest end mill that fits the holes it cuts; a tool you pick stays.\nRecognize Part: the corner brackets sit on the picked feature's own corners and turn with the model.\nClosed command panels are freed: a long session stays smaller and the app closes faster."
     }
   }
 }
