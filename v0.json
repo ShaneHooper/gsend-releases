@@ -4,22 +4,22 @@
     "rev6": {
       "product": "rev6",
       "schema": 1,
-      "latest_version": "6.0.751",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.751/G-SEND-V0-IDE-Update-6.0.751.exe",
-      "sha256": "eb4505c3564e6e767e9df28e98909c950c71d9045b85efada518a288088c8629",
+      "latest_version": "6.0.755",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-ide-v6.0.755/G-SEND-V0-IDE-Update-6.0.755.exe",
+      "sha256": "5017c54aab650781d0faecccf9a8c4f265e1625dd65d1a1f977948b91ab8d407",
       "min_supported_version": "6.0.0",
       "mandatory": false,
-      "release_notes": "Updates: when an AI app's connection to CAD CAM (or a copy left behind by a closed session) holds it, the update says so and Update Both closes those connections and installs. A CAD CAM window is never closed."
+      "release_notes": "Sub Call: with Safe retract 6.0, every hole now rapids to the cycle's R plane (Z.1) before the G01 Z0 plunge - after the G43 line and after each hole's X/Y move - instead of feeding down from 6 inches.\nSimulate: a Tool Definitions size is used only for the program it was typed for; O00242's (T1 CENTER DRILL) is drawn as a 1/4 center drill, not .010, and its false red holder marks are gone."
     },
     "cadcam": {
       "product": "cadcam",
       "schema": 1,
-      "latest_version": "0.1.4784",
-      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4784/G-SEND-V0-CADCAM-Update-0.1.4784.exe",
-      "sha256": "33b0e3b222e9eda5ab4de6141e95f1f7102bdfeaa8938ef634df46cf580f75b8",
+      "latest_version": "0.1.4792",
+      "download_url": "https://github.com/ShaneHooper/gsend-releases/releases/download/v0-cadcam-v0.1.4792/G-SEND-V0-CADCAM-Update-0.1.4792.exe",
+      "sha256": "da1a0af40aad335c117e6a7324233d3d137e6beabe33a6d16e57cce7ed4b6a53",
       "min_supported_version": "0.1.0",
       "mandatory": false,
-      "release_notes": "Sketch: dimensions sit outside what they measure, like a drawing, and numbers no longer stack on each other; laid out about twice as fast on big sketches.\nSketch: Fillet / Chamfer keeps one typed size for corner after corner. Trim cuts a line at the crossing, not the whole line.\nHoles: the Quick hole tools start at 0.5000 in (10 mm in a metric part); a drill made for a hole is named by its decimal size. A hole's sketch points hide once the hole uses them and light up while the mouse is on one of its holes.\nQuick Setup: the origin cubes are the right size from the first frame.\nRecognize Part: the corner brackets follow the part through every turn; two threads on one drill size are never one pattern row.\nMilling setups: pick the Z, X, Y and origin from the part (Advanced fold); a part set up with another side up is turned exactly, so its holes and 2D Adaptive come out the same as a picked frame.\n2D Contour: the loops are cut in the same order every time. A picked wall that can't be seen from the setup's side says so in words.\nAI connection: a part an AI opens while you work goes in a tab at the back; positions read in the part's units; a missed face names the nearest faces."
+      "release_notes": "Sketch: zoomed far out on a busy sketch, the dimensions are laid out in about a quarter of a second instead of up to two; at normal zooms nothing changes.\nDrill toolpath: a size picked on the Drill Chart sets the drill to that size; with no drill that size in the library, one is made (e.g. \"0.2900 Drill (made)\") and picked. Made drills' sizes round like the chart (21/32 = 0.6563).\nSimulate G-code: a tool the program doesn't size is drawn as its own words say (a CENTER DRILL as a 1/4 center drill), not at a size typed for another program."
     }
   }
 }
